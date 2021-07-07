@@ -1,0 +1,19 @@
+.webix_transparent .webix_button {
+    background: none !important;
+}
+
+.text_template {
+    text-align: center;
+}
+
+.webix_list {
+    background-color: rgb(231, 230, 230);
+}
+
+.webix_list_item {
+    border: none !important;
+}
+
+.webix_list_item.webix_selected{
+    background-color: rgb(216, 215, 215);
+}
