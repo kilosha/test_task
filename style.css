@@ -17,3 +17,11 @@
 .webix_list_item.webix_selected{
     background-color: rgb(216, 215, 215);
 }
+
+.green_label .webix_el_box{
+    color: green !important;
+    text-align: center;
+    font-family: serif;
+    font-size: 18px;
+    background-color: rgb(231, 230, 230);
+}

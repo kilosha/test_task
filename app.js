@@ -56,15 +56,20 @@ var toolbar = {
                 ]
 };
 
-
-var row2 = {
-    cols: [
-        { 
+var list = {
             view:"list",
             template:"#text#",
             select:true,
             scroll: false,                
             data:list_content
+};
+
+var row2 = {
+    cols: [
+        {   rows: [
+                list, 
+                { view:"label", label: "&#10003 Connected", css:"green_label"}
+            ]
         },
         {   view:"resizer" },
         {  
@@ -102,8 +107,6 @@ webix.ui({
  });
  
  
-
-
 function addItem() {
     var item_data = $$("film_form").getValues();
     var film_datatable = $$("film_datatable");
